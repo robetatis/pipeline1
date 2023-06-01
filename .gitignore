@@ -1,0 +1,8 @@
+resources/credentials/connection_data.py
+.idea/
+__pycache__/
+derby.log
+metastore_db/
+pipeline.log
+postgresql-42.2.18.jar
+spark-warehouse/

@@ -23,6 +23,5 @@ RUN pip install numpy pandas psycopg2 pyspark
 COPY *.py ./pipeline/
 COPY resources/ ./pipeline/resources/
 
-# run pipeline
+# set working directory 
 WORKDIR /pipeline
-#CMD ["spark-submit", "pipeline.py"]

@@ -3,7 +3,7 @@ To run automatically:
 2. Run container: `docker run <container_name>`
 
 To run manually:
-1. Comment out line 27 of Dockerfile: `# CMD ["spark-submit", "./pipeline/pipeline.py"]`
+1. Comment out line 28 of Dockerfile: `# CMD ["spark-submit", "pipeline.py"]`
 2. Carry out step 1 as in previous section
 3. Run container in interactive detached mode `docker run -itd <container_name>`
 4. Use `docker ps -a` to find `container_id`

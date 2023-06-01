@@ -24,4 +24,5 @@ COPY *.py ./pipeline/
 COPY resources/ ./pipeline/resources/
 
 # run pipeline
-CMD ["spark-submit", "./pipeline/pipeline.py"]
+WORKDIR /pipeline
+#CMD ["spark-submit", "pipeline.py"]

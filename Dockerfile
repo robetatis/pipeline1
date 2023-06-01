@@ -20,7 +20,7 @@ ENV PYTHONPATH=$SPARK_HOME/python/lib/py4j-0.10.9-src.zip:$SPARK_HOME/python/:$P
 RUN pip install numpy pandas psycopg2 pyspark
 
 # copy app files
-COPY *.py postgresql-42.2.18.jar ./pipeline/
+COPY *.py ./pipeline/
 COPY resources/ ./pipeline/resources/
 
 # run pipeline

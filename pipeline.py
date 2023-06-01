@@ -30,7 +30,7 @@ class Pipeline:
         self.spark = SparkSession \
             .builder \
             .appName('app_jdbc') \
-            .config('spark.driver.extraClassPath', 'postgresql-42.2.18.jar') \
+            .config('spark.driver.extraClassPath', 'resources/postgresql-42.2.18.jar') \
             .enableHiveSupport() \
             .getOrCreate()
 

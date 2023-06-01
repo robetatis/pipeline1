@@ -15,7 +15,7 @@ connection_dict = {
 }
 ```
 
-6. Inside container, you'll be taken automatically to project folder; there, submit spark job: 
+6. Inside container, navigate to the main project folder `/pipeline/`; there, submit spark job: 
 	```shell
 	spark-submit pipeline.py
 	```

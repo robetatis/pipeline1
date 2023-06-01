@@ -1,6 +1,6 @@
 To run automatically:
 1. Build image from `Dockerfile`: `docker build -t <container_name> .`
-2. Run container in detached mode: `docker run -itd <container_name>`
+2. Run container in detached mode: `docker run <container_name>`
 
 To run manually:
 1. Comment out line 27 of Dockerfile: `# CMD ["spark-submit", "./pipeline/pipeline.py"]`

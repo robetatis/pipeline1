@@ -1,4 +1,5 @@
 To run pipeline in a Docker container:
+
 0. Clone repo
 1. Navigate to project folder (`/pipeline1/`)
 2. Build image from `Dockerfile`: `docker build -t <container_name> .`

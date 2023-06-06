@@ -8,6 +8,6 @@ class Transformation:
     def run(self, df):
         self.logger.info('transforming')
         df1 = df.na.fill('Unknown', ['author_name'])
-        df2 = df1.na.fill('0', ['no_reviews'])
+        df2 = df1.na.fill(0, ['no_reviews'])
         # df.na.drop()
         return df2
